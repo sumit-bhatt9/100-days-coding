@@ -1,3 +1,8 @@
+// 100 day challenge
+// Day 3
+// Question 5: Rearrange array in increasing-decreasing order
+
+// Problem Statement: Rearrange the array such that the first half is arranged in increasing order, and the second half is arranged in decreasing order
 import java.util.*;
 class Rearrange
 {
