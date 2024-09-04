@@ -48,8 +48,8 @@ public class Rev {
        }
     }
     //Function to reverse array 
-    static void reverseArray(int arr[], int n) {
-       int p1 = 0, p2 = n - 1;
+    static void reverseArray(int arr[], int size) {
+       int p1 = 0, p2 = size - 1;
        while(p1<p2)
        {
         int temp= arr[p1];
@@ -58,7 +58,7 @@ public class Rev {
         p1++;
         p2--;
        }
-       printArray(arr, n);
+       printArray(arr, size);
     }
     public static void main(String[] args) {
        int n = 6;
